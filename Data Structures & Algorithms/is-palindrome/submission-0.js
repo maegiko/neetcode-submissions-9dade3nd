@@ -2,7 +2,7 @@ class Solution {
     isAlphanumeric(char) {
         return (
             (char >= 'a' && char <= 'z') ||
-            (char >= 'A' && char <= 'z') ||
+            (char >= 'A' && char <= 'Z') ||
             (char >= '0' && char <= '9')
         );
     } 
